@@ -43,7 +43,8 @@ a { color: var(--accent); }
 .story img { width:100%; height:auto; display:block; max-height: 230px; object-fit: cover; }
 .story .pad { padding: .85rem 1rem 1rem; }
 .tape, .takes { background:var(--card); border:1px solid var(--line); border-radius:14px; padding: .9rem 1rem; margin: .8rem 0; }
-.takes li { margin: .4rem 0; }
+.tape ul, .takes ul { margin: .35rem 0 0; padding-left: 1.1rem; }
+.tape li, .takes li { margin: .35rem 0; }
 .card-row { display:grid; gap:.8rem; }
 @media (min-width:640px) { .card-row { grid-template-columns: 1fr 1fr; } }
 .tease { background:var(--card); border:1px solid var(--line); border-radius:14px; overflow:hidden; text-decoration:none; color:inherit; display:block; }
