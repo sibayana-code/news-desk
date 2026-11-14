@@ -65,3 +65,25 @@ footer { padding: 1.4rem 1.1rem 2.4rem; color:var(--muted); font-size:.85rem; }
 .quote cite { display:block; color:var(--muted); font-style:normal; font-size:.85rem; margin-top:.45rem; }
 .tease.lead { grid-column: 1 / -1; }
 .tease.lead img { height:180px; }
+
+.live-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .6rem;
+  min-height: 44px;
+  margin: 0 0 .9rem;
+  padding: .7rem 1rem;
+  background: var(--card);
+  color: var(--accent);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: .95rem;
+  line-height: 1.3;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(0,0,0,.08);
+}
+.live-btn:active { background: var(--line); }
+
