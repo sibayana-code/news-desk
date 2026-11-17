@@ -65,7 +65,7 @@
 <header>
   <p class="muted">Temporary live page</p>
   <h1>US air traffic outage</h1>
-  <p class="live-meta">Temporary live page, last updated 7:20 AM PH, Tuesday 17 Nov 2026. Times below are in Philippine time (Asia/Manila). This page is updated about every three hours from 7 AM to 10 PM PH until Friday 20 Nov, then archived.</p>
+  <p class="live-meta">Temporary live page, last updated 10:20 AM PH, Tuesday 17 Nov 2026. Times below are in Philippine time (Asia/Manila). This page is updated about every three hours from 7 AM to 10 PM PH until Friday 20 Nov, then archived.</p>
   <nav class="nav">
     <a href="../../index.html">Today</a>
     <a href="../../archive/">Archive</a>
@@ -78,7 +78,7 @@
     <p class="kicker">Status</p>
     <h2 id="stand-h">Where things stand</h2>
     <p><strong>Flights:</strong> The nationwide ground stop ended at 8:15 p.m. Eastern Friday (9:15 a.m. Saturday PH) after more than four hours, and the airspace is open. Knock-on disruption ran through Saturday: FlightAware’s final tally for the day was 6,620 cancellations and 8,316 delays within, into or out of the United States, after about 9,200 cancellations on Friday (FlightAware; the FAA’s own count of Friday cancellations by all operators is about 12,462). Delta, United and American each cancelled about a quarter of Saturday’s flights and JetBlue nearly 45% (Reuters). Sunday closed with more than 2,300 US cancellations and about 7,700–8,000 delays (FlightAware via NPR and CNBC), with Atlanta and Dallas-Fort Worth worst hit; roughly 18,000 cancellations over three days. Monday stayed near normal: by about 6:20 p.m. Eastern (7:20 a.m. Tuesday PH), FlightAware listed 349 US cancellations and 5,158 delays for the day.</p>
-    <p><strong>Cause:</strong> At a Saturday news conference, Transportation Secretary Sean Duffy said contractor L3Harris, which owns and runs the FAA’s telecom network, was switching lines from old copper to fiber at “at least one” remote FAA site when a router began flooding other routers with more than 1,000 connection attempts every four to five seconds, disrupting radio contact with aircraft and radar feeds. The Wall Street Journal says the traffic came from newly installed routers at an FAA radio site in El Dorado, Arkansas (a Juniper unit) and a radar site in Amarillo, Texas, and the overload hit 17 of the 22 en route centers. A router broadcasting feature has been switched off on the FAA’s roughly 60 Juniper routers; HPE says the router “functioned as it was configured to by the installer.” Both routers are now in L3Harris’s Florida lab for diagnostics with FAA, Juniper and Cisco engineers and FBI agents, who are also reviewing how the router was installed, and Duffy says broadcasting is off on all 69 such routers. Whether it was installer error or a faulty router is not yet determined, and Bedford said the root cause has not been established. Bedford said there is “zero evidence of anything nefarious, and zero evidence of anything AI related”; Duffy said Sunday there is “no indication” of a foreign cyberattack and the FBI has offered help, but officials have not formally closed the cyber question.</p>
+    <p><strong>Cause:</strong> At a Saturday news conference, Transportation Secretary Sean Duffy said contractor L3Harris, which owns and runs the FAA’s telecom network, was switching lines from old copper to fiber at “at least one” remote FAA site when a router began flooding other routers with more than 1,000 connection attempts every four to five seconds, disrupting radio contact with aircraft and radar feeds. The Wall Street Journal says the traffic came from newly installed routers at an FAA radio site in El Dorado, Arkansas (a Juniper unit) and a radar site in Amarillo, Texas, and the overload hit 17 of the 22 en route centers. A router broadcasting feature has been switched off on the FAA’s roughly 60 Juniper routers; HPE says the router “functioned as it was configured to by the installer.” Both routers are now in L3Harris’s Florida lab for diagnostics with FAA, Juniper and Cisco engineers and FBI agents, who are also reviewing how the router was installed, and Duffy says broadcasting is off on all 69 such routers. Duffy says the new routers stayed up and it was the FAA’s old 2001-era Cisco units that were flooded. Whether it was installer error or a faulty router is not yet determined, and Bedford said the root cause has not been established. Bedford said there is “zero evidence of anything nefarious, and zero evidence of anything AI related”; Duffy said Sunday there is “no indication” of a foreign cyberattack and the FBI has offered help, but officials have not formally closed the cyber question.</p>
     <p><strong>Who’s investigating:</strong> The FAA, with L3Harris, which says it is supporting the inquiry and has finished more than 70% of the copper-to-fiber conversion. The PASS union, which represents FAA technicians, says its members were not involved in the upgrade. DHS, CISA, NSA, the Pentagon and the FBI took part in Friday’s response. Rep. Robert Garcia, the top Democrat on House Oversight, has pledged his own investigation. Duffy says he cannot cancel L3Harris because it owns the network. <strong>Next:</strong> the FAA’s extra testing with L3Harris for further risks, a finding on the faulty router versus contractor error, a published root-cause analysis, which Bedford promised to share, a review of when upgrade work at remote sites is scheduled, Duffy’s $50 billion funding request (House Speaker Mike Johnson says he supports more money this year), and oversight from House Democrats Rick Larsen and Andre Carson, who take over the transport committee and aviation subcommittee next year: a staff briefing on Monday 16 Nov Eastern and a hearing with Bedford expected in early December.</p>
   </section>
 
@@ -90,6 +90,16 @@
       <button type="button" class="tl-btn" data-collapse>Collapse all</button>
     </p>
     <ol class="tl">
+      <li>
+        <details class="item">
+          <summary><time datetime="2026-11-17T10:20:00+08:00">Tue 17 Nov, about 10:20 AM PH</time>
+            <span class="hd">Duffy says the old Cisco routers, not the new Juniper gear, were the ones that buckled; Democrats press on unspent money</span></summary>
+          <div class="item-body">
+            <p>In his Monday CNBC interview (Eastern), Duffy said the new routers already installed in the system “didn’t go down”; it was the FAA’s many Cisco units from 2001, which went out of support in 2006, that were flooded and produced the inconsistent data. HPE told CRN that “our equipment was working as configured” and that the FAA is assessing the configuration of all equipment involved. On the money fight, Roll Call reports that House Appropriations Democrats Rosa DeLauro and James Clyburn say $9 billion of the $14.4 billion approved for air traffic control upgrades since last July is still unspent, and cites a September GAO warning that the FAA’s rush could leave controllers on outdated systems “prone to failure”. FAA and DOT staff were due to brief House Transportation Committee staff on Monday Eastern; no readout has been published yet. Senate Minority Leader Chuck Schumer urged extra scrutiny before the Thanksgiving and Christmas travel peaks.</p>
+        <p class="src"><a href="https://www.crn.com/news/networking/2026/faa-air-traffic-ground-stop-investigation-hpe-juniper-routers-cisco-routers-and-the-aftermath-of-a-telecom-network-upgrade">CRN</a> · <a href="https://rollcall.com/2026/11/16/aviation-funding-becomes-political-football-in-lame-duck-session/">Roll Call</a> · <a href="https://cbsaustin.com/news/local/house-democrats-seek-faa-dot-briefing-after-friday-ground-stop-tied-to-aging-systems">CBS Austin (KEYE)</a> · <a href="https://www.faa.gov/newsroom/nationwide-ground-stop-questions-and-answers">FAA Q&amp;A</a></p>
+          </div>
+        </details>
+      </li>
       <li>
         <details class="item">
           <summary><time datetime="2026-11-17T07:20:00+08:00">Tue 17 Nov, about 7:20 AM PH</time>
@@ -578,6 +588,15 @@
   <section class="section" aria-labelledby="th-h">
     <h2 id="th-h">Unconfirmed: theories and analysis</h2>
     <p class="muted">Each item is attributed to a named outlet or expert. None of these is an official finding.</p>
+
+    <details class="item theory">
+      <summary><span class="hd">The Juniper router’s broadcasting feature should never have been switched on next to legacy Cisco gear</span></summary>
+      <div class="item-body">
+        <p>A source with knowledge of the incident told CRN that the broadcasting capability on the new HPE Juniper router should have been turned off because it was talking to 20-year-old Cisco routers: “That capability should not have been turned on for a large legacy system.”</p>
+      <p class="why"><strong>Why it might be true:</strong> It matches the FAA’s fix (disabling broadcasting on all the new routers stopped the flood), HPE’s line that its equipment worked “as configured”, and Duffy’s account that the old Cisco units were the ones overwhelmed. <strong>Why it might be false:</strong> The source is anonymous, the lab diagnostics are not finished, and officials still list a faulty router as a possibility alongside installer error.</p>
+      <p class="src"><a href="https://www.crn.com/news/networking/2026/faa-air-traffic-ground-stop-investigation-hpe-juniper-routers-cisco-routers-and-the-aftermath-of-a-telecom-network-upgrade">CRN</a></p>
+      </div>
+    </details>
 
     <details class="item theory">
       <summary><span class="hd">The trouble was limited to Cisco 600-series routers made in 2001–2006</span></summary>
