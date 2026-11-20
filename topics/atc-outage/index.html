@@ -92,6 +92,16 @@
     <ol class="tl">
       <li>
         <details class="item">
+          <summary><time datetime="2026-11-20T10:20:00+08:00">Fri 20 Nov, about 10:20 AM PH</time>
+            <span class="hd">TechTarget: the quarantined Juniper units were circuit-to-packet devices, and their broadcast mode is off by default</span></summary>
+          <div class="item-body">
+            <p>A source familiar with the issue told TechTarget the devices the FAA cut off to steady the network were circuit-to-packet (CTP) units that bridge legacy analog lines to IP, not standard routers, and that their broadcast (multicast) feature is not on by default; turning it on takes configuration code, not a simple toggle, and other sites were set up the same way without trouble. HPE repeated that its equipment “was working as configured.” As of Thursday night Eastern, the government had not yet announced the root cause that Bedford said would come this week.</p>
+        <p class="src"><a href="https://www.techtarget.com/news/experts-look-beyond-hpe-devices-for-answers-on-faa-ground-stop/875209/">TechTarget</a> · <a href="https://www.investing.com/news/stock-market-news/us-plans-to-announce-cause-of-outage-that-led-to-nationwide-ground-stop-faa-says-5039469">Reuters (via Investing.com)</a></p>
+          </div>
+        </details>
+      </li>
+      <li>
+        <details class="item">
           <summary><time datetime="2026-11-20T07:20:00+08:00">Fri 20 Nov, about 7:20 AM PH</time>
             <span class="hd">Bedford says the root cause will be announced this week, with Duffy to brief the public</span></summary>
           <div class="item-body">
@@ -739,6 +749,15 @@
   <section class="section" aria-labelledby="th-h">
     <h2 id="th-h">Unconfirmed: theories and analysis</h2>
     <p class="muted">Each item is attributed to a named outlet or expert. None of these is an official finding.</p>
+
+    <details class="item theory">
+      <summary><span class="hd">Unconfirmed: a misconfiguration or poor network design, not the vendor’s hardware, is to blame</span></summary>
+      <div class="item-body">
+        <p>Speaking to TechTarget, Wipro network architect Ram Chandra Sachan (in a personal capacity) said a single device rarely takes down a network this widely because key entry points are normally redundant, and called it “misconfiguration or poorly designed network architecture,” not an OEM problem. Red Hat engineer Michele Chubirka, stressing she was speculating without a postmortem, said a “faulty” Juniper router is rare and bad configs or loops from mis-plugged hardware are common. EMA analyst Shamus McGillicuddy said he doubts it is HPE or Juniper’s fault.</p>
+      <p class="why"><strong>Why it might be true:</strong> The broadcast feature had to be deliberately configured, HPE says the unit behaved as configured, and Duffy says 68 earlier installs worked. <strong>Why it might be false:</strong> No postmortem has been published, the lab has reproduced the flood without explaining it, and the Amarillo unit installed weeks earlier also flooded, so a device or software fault is not ruled out.</p>
+      <p class="src"><a href="https://www.techtarget.com/news/experts-look-beyond-hpe-devices-for-answers-on-faa-ground-stop/875209/">TechTarget</a></p>
+      </div>
+    </details>
 
     <details class="item theory">
       <summary><span class="hd">Unconfirmed: four big outages in under a week “look suspiciously” like a cyberattack</span></summary>
